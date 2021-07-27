@@ -13,16 +13,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         setupActionBarWithNavController(findNavController(R.id.fragment))
-
-
-        /* viewModel.getUser(2)
-         viewModel.repositoryUser.observe(this) {
-             if (it.isSuccessful) {
-                 Log.d("Response", it.body()?.data?.name!!)
-             } else {
-                 Log.e("Response", it.errorBody().toString())
-             }
-         }*/
     }
 
     override fun onSupportNavigateUp() =

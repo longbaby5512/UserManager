@@ -71,8 +71,6 @@ class ListFragment : Fragment(), UserAdapter.ItemClickListener {
         }
 
         return view
-
-
     }
 
     override fun onDetach() {

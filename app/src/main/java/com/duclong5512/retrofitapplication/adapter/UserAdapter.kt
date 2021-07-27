@@ -1,5 +1,6 @@
 package com.duclong5512.retrofitapplication.adapter
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -28,6 +29,7 @@ class UserAdapter(private val listener: ItemClickListener) :
 
     override fun getItemCount() = users.size
 
+    @SuppressLint("NotifyDataSetChanged")
     fun setData(users: List<UserGetData>) {
         this.users = users
         notifyDataSetChanged()

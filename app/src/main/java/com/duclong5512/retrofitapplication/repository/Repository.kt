@@ -1,7 +1,6 @@
 package com.duclong5512.retrofitapplication.repository
 
 import com.duclong5512.retrofitapplication.api.RetrofitInstance
-import com.duclong5512.retrofitapplication.model.UserGetData
 import com.duclong5512.retrofitapplication.model.User
 import com.duclong5512.retrofitapplication.model.UserUpdateData
 import com.duclong5512.retrofitapplication.model.Users
